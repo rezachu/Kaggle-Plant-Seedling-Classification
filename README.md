@@ -14,11 +14,12 @@ This is the kernel of Kaggle Competition - [Plant Seedlings Classification](http
 - [NumPy](http://www.numpy.org/)
 - [Pandas](http://pandas.pydata.org)
 - [matplotlib](http://matplotlib.org/)
+- [iPython Notebook](http://ipython.org/notebook.html)
 - [Keras](http://scikit-learn.org/stable/)
 - CUDA 9.0 - `curl -O https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/cuda-repo-ubuntu1604_9.2.88-1_amd64.deb`
 - [cuDNN](https://developer.nvidia.com/rdp/cudnn-download)
 - Tensorflow-gpu - `pip install tensorflow-gpu`
-- [iPython Notebook](http://ipython.org/notebook.html)
+
 
 ## Documents included in the repository
 - `README.md`
@@ -56,4 +57,38 @@ There are twevle classes in the train data directory
 10. Shepherds Purse
 11. Small-flowered Cranesbill
 12. Sugar beet
+
+## Kernel Structure
+# 1. Data Exploration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The number of category is 12
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Here are the training data intel:
+-Black-grass 263 images
+-Charlock 390 images
+-Cleavers 287 images
+-Common Chickweed 611 images
+-Common wheat 221 images
+-Fat Hen 475 images
+-Loose Silky-bent 654 images
+-Maize 221 images
+-Scentless Mayweed 516 images
+-Shepherds Purse 231 images
+-Small-flowered Cranesbill 496 images
+-Sugar beet 385 images
+
+The Data is slightly imbalance that the minimum classes (Common wheat, Maize) have 221 images only and the maximum class (Loose Silky-bent) has 654 images.
+
+# 2. Creating Training and Testing Data Frame and Shuffling
+
+Example Format:
+![Image Show](./source/df_preview)
+
+Example Image:
+![Image Show](./source/example_01.png)
+
+
+
+
+
 
