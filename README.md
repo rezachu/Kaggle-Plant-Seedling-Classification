@@ -185,7 +185,7 @@ The best result was located at epoch 16 with
 - validating_accuracy: 0.9642 
 - validating_fscore:: 0.9651 
 
-It took 3211.38s to training 22 epochs for 4750 image (train and valid) with batch size 64 on a single NVIDIA Tesla K80 GPU where each epoch took less then 140s. I trained it without GPU before which took around 6000s for an epoch.
+It took 3211.38s to training 23 epochs (Early Stopped) for 4750 image (train and valid) with batch size 64 on a single NVIDIA Tesla K80 GPU where each epoch took less then 140s. I trained it without GPU before which took around 6000s for an epoch.
 
 
 ```
