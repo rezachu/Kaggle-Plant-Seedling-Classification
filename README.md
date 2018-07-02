@@ -99,6 +99,10 @@ Train Valid Split: 0.2
 - valid_size: 950
 - test_size: 794
 
+Image resized to 299x299
+
+Input Tensor Shape: (299, 299 ,3)
+
 Example Image:
 ![Image Show](https://github.com/rezachu/Kaggle-Plant-Seedling-Classification/blob/master/sources/example_02.png)
 
